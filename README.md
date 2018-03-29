@@ -9,10 +9,14 @@ Resource                  Method            URI
  * Add survey questions      POST          /surveys/{surveyId}/questions
  * Delete survey question    DELETE       /surveys/{surveyId}/questions/{questionId}
  
- Provided intial survey questions( added in a List, no db support yet).
+ Provided intial survey questions( added in a List, no db support yet). Customized error response. Provided basic validation.
+  To Do: adding security, storing data to database
+  
  http://localhost:8080/surveys/
  http://localhost:8080/surveys/Survey1/questions/
  
  To run , clone the project and import into eclipse (File -> Import -> Existing Maven Project -> pom file location)
+ 
+
  
  
